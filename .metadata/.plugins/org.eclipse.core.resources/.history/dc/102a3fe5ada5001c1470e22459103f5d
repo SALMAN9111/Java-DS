@@ -1,0 +1,7 @@
+package com.datastructure.singlylinkedlist;
+
+class Test {
+	final strictfp synchronized static public void main(String... ratan) {
+		System.out.println("hello ratan sir");
+	}
+}

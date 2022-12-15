@@ -1,0 +1,10 @@
+package com.datastructure.singlylinkedlist;
+
+class Test {
+	public static void main(String[] args) {
+		System.out.println("parent class");
+	}
+}
+
+class Child extends Test {
+}

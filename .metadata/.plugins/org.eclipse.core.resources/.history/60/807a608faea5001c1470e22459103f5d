@@ -1,0 +1,29 @@
+package com.datastructure.singlylinkedlist;
+
+public class Parent {
+	void property() {
+		System.out.println("money+land+hhouse");
+	}
+
+	 void marry() {
+		System.out.println("black girl");
+	}
+}
+
+class Child extends Parent {
+	void marry() {
+		System.out.println("white girl/red girl");
+//		return "something";
+	}
+
+	public static void main(String[] args)
+
+	{
+		Child c = new Child();
+		c.property();
+		c.marry();
+		Parent p = new Parent();
+		p.property();
+		p.marry();
+	}
+}

@@ -1,0 +1,9 @@
+1649917943406	Rename field 'name'
+1649918199489	Rename type 'Hibernate'
+1649921249129	Encapsulate field 'officeAddress'
+1649921979063	Rename local variable 'user1Addr'
+1650101260071	Rename field 'listAddress'
+1650105804171	Encapsulate field 'user'
+1650106720115	Copy file
+1650107140332	Copy package
+1650107184235	Copy package

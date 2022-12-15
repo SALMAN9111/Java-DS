@@ -1,0 +1,12 @@
+package com.datastructure.singlylinkedlist;
+
+strictfp class Test {
+	void m1() {
+		System.out.println("m1 fallows floating point calculations IEEE754 format");
+	}
+
+	public static void main(String[] args)
+	{
+	System.out.println("main method fallows IEEE754 format");
+	}
+}

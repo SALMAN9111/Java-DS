@@ -1,0 +1,24 @@
+package com.example.hibernate.test;
+
+import java.util.Date;
+
+import com.example.hibernate.model.Address;
+import com.example.hibernate.model.UserDetails;
+
+public class HibernateTest {
+
+	public static void main(String[] args) {
+		UserDetails user = new UserDetails();
+		
+		user.setName("Frank");
+		user.setDate(new Date());
+		user.setPhone("767885676");
+		
+		Address addr = new Address();
+		addr.setCity("Bijapur");
+		addr.setPincode("586101");
+		addr.setState("Karnataka");
+		addr.setStreet("Street");
+	}
+
+}

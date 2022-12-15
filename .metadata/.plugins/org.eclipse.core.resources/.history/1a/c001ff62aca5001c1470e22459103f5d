@@ -1,0 +1,20 @@
+package com.datastructure.singlylinkedlist;
+
+public class Test {
+	Test() {
+//		System.out.println(i);
+//		System.out.println(j);
+		System.out.println("two arg constructor");
+	}
+};
+
+class Test1 extends Test {
+	Test1(int i) {
+//		super(100, 200);
+		System.out.println("int -arg constructor");
+	}
+
+	public static void main(String[] args) {
+		Test1 t = new Test1(10);
+	}
+}
